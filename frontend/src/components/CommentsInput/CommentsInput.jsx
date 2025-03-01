@@ -26,7 +26,7 @@ const CommentsInput = () => {
     }
 
   return (
-    <div className='flex-2 lg:border-r lg:border-gray-300 h-screen'>
+    <div className='flex-2 h-screen'>
         <h1 className='my-4 font-bold text-3xl text-[green] ml-2'>Type Your Comment</h1>
         <div className='flex flex-col gap-10' value={userData.name}>
             <input type='text' 
