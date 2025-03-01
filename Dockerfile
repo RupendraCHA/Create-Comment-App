@@ -18,4 +18,5 @@ RUN npm install -g concurrently
 
 EXPOSE 8000 5173
 
-CMD concurrently "npm start" "cd ../frontend && npm run dev"
+# CMD concurrently "npm start" "cd ../frontend && npm run dev"
+CMD ["npx", "concurrently", "npm start", "cd frontend && npm run dev"]
